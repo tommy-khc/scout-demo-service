@@ -20,4 +20,6 @@ COPY . /app
 
 CMD ["node","/app/app.js"]
 
+WORKDIR /app
+
 EXPOSE 3000
